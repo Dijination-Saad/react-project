@@ -12,7 +12,7 @@ const LifeExpectancyChart = () => {
           throw new Error('Network response was not ok');
         }
 
-        const data = await response.json(); // Yeh JSON hona chahiye
+        const data = await response.json(); 
         const chartDom = document.getElementById('main');
         const myChart = echarts.init(chartDom);
 

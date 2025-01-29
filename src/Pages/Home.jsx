@@ -3,7 +3,7 @@ import '../Styles/Style.css'
 import Hero from '../components/Hero'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
-import ChartComponent from '../components/LifeExpentancyChart'
+import ChartComponent from '../components/Chart'
 
 const Home = () => {
   return (
